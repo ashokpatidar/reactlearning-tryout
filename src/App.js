@@ -6,8 +6,8 @@ import { FaAngellist } from "react-icons/fa";
 import { IconContext } from "react-icons";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Tippy from '@tippy.js/react';
-import 'tippy.js/dist/tippy.css';
+import Tippy from "@tippy.js/react";
+import "tippy.js/dist/tippy.css";
 
 import ModalComponent from "./ModalComponent";
 
@@ -27,8 +27,8 @@ function App() {
       </IconContext.Provider>
 
       <button onClick={notify}>Toast Notification</button>
-      <Tippy content='basic tooltip'>
-      <button>hover</button>
+      <Tippy content="basic tooltip">
+        <button>hover</button>
       </Tippy>
       <ModalComponent />
     </div>
