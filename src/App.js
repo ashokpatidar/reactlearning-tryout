@@ -8,6 +8,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Tippy from "@tippy.js/react";
 import "tippy.js/dist/tippy.css";
+import IdealTimerContainer from "./IdealTimerContainer";
 
 import ModalComponent from "./ModalComponent";
 
@@ -31,6 +32,7 @@ function App() {
         <button>hover</button>
       </Tippy>
       <ModalComponent />
+      <IdealTimerContainer />
     </div>
   );
 }
